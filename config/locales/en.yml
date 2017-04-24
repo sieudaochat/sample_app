@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  hello: "Hello"
   titlehome: "Sample App"
   help: "Help"
   home: "Home"
@@ -57,3 +58,13 @@ en:
     errors: "The form contains"
     confirm: "Confirmation"
     notfound: "Cannot find user"
+  login:
+    login: "Log in"
+    signup: "Sign up now!"
+    newuser: "New user?"
+    invalid: "Invalid email/password combination"
+    user: "Users"
+    account: "Account"
+    profile: "Profile"
+    setting: "Settings"
+    logout: "Log out"
