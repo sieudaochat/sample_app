@@ -10,6 +10,10 @@ class User < ApplicationRecord
   before_save :downcase_email
   has_secure_password
 
+  def current_user? current_user
+    self == current_user
+  end
+
   def downcase_email
     self.email = email.downcase
   end
