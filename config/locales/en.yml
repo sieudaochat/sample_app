@@ -51,6 +51,7 @@ en:
   signupnow: "Sign up now!"
   michael: "Michael Hartl"
   error: "error"
+  pleaselogin: "Please log in."
   signup:
     signup: "Sign up"
     signupdes: "This will be a signup page for new users."
@@ -69,3 +70,16 @@ en:
     setting: "Settings"
     logout: "Log out"
     remember: "Remember me on this computer"
+  edit:
+    edit: "Edit user"
+    update: "Update your profile"
+    confirm: "Confirmation"
+    save: "Save changes"
+    change: "Change"
+    profileupdated: "Profile updated"
+  index:
+    alluser: "All users"
+  delete:
+    delete: "Delete"
+    sure: "Are you sure?"
+    userdelete: "User deleted"
