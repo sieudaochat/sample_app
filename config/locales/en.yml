@@ -83,3 +83,14 @@ en:
     delete: "Delete"
     sure: "Are you sure?"
     userdelete: "User deleted"
+  active:
+    active: "Active"
+    activated: "Account activated!"
+    accountactivation: "Account activation"
+    welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    hi: "Hi "
+    checkemail: "Please check your email to activate your account."
+    invalid: "Invalid activation link"
+    notactivated: "Account not activated. "
+  passreset:
+    hi: "Hi"
