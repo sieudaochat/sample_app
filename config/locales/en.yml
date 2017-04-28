@@ -94,3 +94,18 @@ en:
     notactivated: "Account not activated. "
   passreset:
     hi: "Hi"
+    passreset: "Password Reset"
+    forgot: "Forgot password"
+    submit: "Submit"
+    sent: "Email sent with password reset instructions"
+    emailnotfound: "Email address not found"
+    des: "To reset your password click the link below:"
+    resetpass: "Reset password"
+    expire: "This link will expire in two hours."
+    ifnot: "If you did not request your password to be reset, please ignore
+      this email and your password will stay as it is."
+    confirm: "Confirmation"
+    updatepass: "Update password"
+    cantempty: "can't be empty"
+    success: "Password has been reset."
+    passexpired: "Password reset has expired."
