@@ -52,6 +52,7 @@ en:
   michael: "Michael Hartl"
   error: "error"
   pleaselogin: "Please log in."
+  viewprofile: "view my profile"
   signup:
     signup: "Sign up"
     signupdes: "This will be a signup page for new users."
@@ -79,6 +80,7 @@ en:
     profileupdated: "Profile updated"
   index:
     alluser: "All users"
+    micropostfeed: "Micropost Feed"
   delete:
     delete: "Delete"
     sure: "Are you sure?"
@@ -109,3 +111,19 @@ en:
     cantempty: "can't be empty"
     success: "Password has been reset."
     passexpired: "Password reset has expired."
+  micropost:
+    created: "Micropost created!"
+    deleted: "Micropost deleted"
+    picturelessthan: "should be less than 5MB"
+    sure: "You sure?"
+    posted: "Posted"
+    ago: "ago."
+    compose: "Compose new micropost..."
+    post: "Post"
+    micropost: "Micropost"
+    delete: "delete"
+  misc:
+    micropost:
+      zero: "No micropost"
+      one: "1 micropost"
+      other: "%{count} microposts"

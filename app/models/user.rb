@@ -9,6 +9,7 @@ class User < ApplicationRecord
 
   before_save :downcase_email
   before_create :create_activation_digest
+  has_many :microposts, ->{order created_at: :desc}, dependent: :destroy
   has_secure_password
 
   def current_user? current_user
@@ -42,6 +43,10 @@ class User < ApplicationRecord
     BCrypt::Password.new(digest).is_password? token
   end
 
+  def feed
+    microposts
+  end
+
   def forget
     update_attributes remember_digest: nil
   end
@@ -61,7 +66,8 @@ class User < ApplicationRecord
 
   def create_reset_digest
     self.reset_token = User.new_token
-    update_attributes reset_digest: User.digest(reset_token), reset_sent_at: Time.zone.now
+    update_attributes reset_digest: User.digest(reset_token),
+      reset_sent_at: Time.zone.now
   end
 
   def send_password_reset_email
