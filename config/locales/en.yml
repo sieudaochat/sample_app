@@ -53,6 +53,10 @@ en:
   error: "error"
   pleaselogin: "Please log in."
   viewprofile: "view my profile"
+  following: "following"
+  followers: "followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
   signup:
     signup: "Sign up"
     signupdes: "This will be a signup page for new users."

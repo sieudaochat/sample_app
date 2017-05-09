@@ -25,6 +25,8 @@ class UsersController < ApplicationController
 
   def show
     @microposts = @user.microposts.paginate page: params[:page]
+    @follow = current_user.new_follow
+    @unfollow = current_user.get_unfollow @user
   end
 
   def edit
